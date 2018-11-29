@@ -18,14 +18,14 @@
 
 * Intrusion Detection
 
-**Source types:**
+**Sourcetypes:**
 
-* vectra:cognito:audit
-* vectra:cognito:campaings
-* vectra:cognito:cef
-* vectra:cognito:detect
-* vectra:cognito:health
-* vectra:cognito:hostscoring
+* `vectra:cognito:audit`
+* `vectra:cognito:campaings`
+* `vectra:cognito:cef`
+* `vectra:cognito:detect`
+* `vectra:cognito:health`
+* `vectra:cognito:hostscoring`
 
 **Add-on contains:**
 
@@ -37,15 +37,15 @@
 
 ## Using this Technology Add-on
 
-* The add-on has to be installed on search-heads
+* The add-on has to be installed on Search Heads
 * If data is collected through Intermediate Heavy Forwarders, it has to be installed on Heavy Forwarders, otherwise on indexers
-* The add-on expects an initial sourcetype named "vectra:cognito:cef", the sourcetype will be transformed into more specific ones
-* A sample inputs.conf is provided (default/inputs.conf.sample)
+* The add-on expects an initial sourcetype named `vectra:cognito:cef`, the sourcetype will be transformed into more specific ones (see sourcetype list)
+* A sample `inputs.conf` is provided (`default/inputs.conf.sample`)
 
 ## Compatibility
 
 * This app is not compatible with the Vectra App For Splunk
-* For compatibility reasons, all data previously indexed with a sourcetype Vectra-CEF will be renamed into the sourcetype "vectra:cognito:detect"
+* For compatibility reasons, all data previously indexed with a sourcetype `Vectra-CEF` will be renamed into the sourcetype `vectra:cognito:detect`
 
 ## Release Notes
 
