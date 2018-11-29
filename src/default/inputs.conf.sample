@@ -1,0 +1,13 @@
+## inputs.conf example. The stanza should be copied e.g. to $SPLUNK_HOME/etc/apps/TA-vectra-cognito/local/inputs.conf
+
+# Example input stanza when using Splunk as a syslog host
+
+[tcp://5514]
+index = <your destination index goes here>
+sourcetype = vectra:cognito:cef
+
+# Example input when syslog-ng/rsyslog is used
+
+[monitor:///var/log/vectra/*.log*]
+index = <your destination index goes here>
+sourcetype = vectra:cognito:cef
