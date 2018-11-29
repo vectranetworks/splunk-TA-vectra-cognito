@@ -12,7 +12,7 @@
 
 **Supported CIM Version:**
 
-* >=4.0.0
+* &gt;=4.0.0
 
 **Supported CIM Datamodels:**
 
