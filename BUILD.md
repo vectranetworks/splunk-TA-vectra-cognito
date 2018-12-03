@@ -16,11 +16,16 @@ destinationDir: <repositorypath>/TA-vectra-cognito/build/distributions
 
 BUILD SUCCESSFUL
 
-Total time: 0.993 secs
-```
+Total time: 0.993 secs```
 
 * A new `TA-vectra-coginit-<version>.spl` package will be created in the build/distributions directory
 
 ## Prepare app certification
 
-to be done
+* Install AppInspect Toolkit [http://dev.splunk.com/view/appinspect/SP-CAAAE9U]
+
+* Run inspectDist
+
+```./gradle inspectDist```
+
+* Fix all problems
