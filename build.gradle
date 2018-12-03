@@ -27,6 +27,12 @@ task createDist(type: Tar, group: "Custom", description: "Creates the distributi
         fileMode = 0644
     }
 
+    into("TA-vectra-cognito/static") {
+        from "src/static/"
+        exclude '**/.DS_Store'
+        fileMode = 0644
+    }
+
     into("TA-vectra-cognito/") {
         from "README.md"
         exclude '**/.DS_Store'
