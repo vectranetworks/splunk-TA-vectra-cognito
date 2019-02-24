@@ -21,7 +21,7 @@
 **Sourcetypes:**
 
 * `vectra:cognito:audit`
-* `vectra:cognito:campaings`
+* `vectra:cognito:campaigns`
 * `vectra:cognito:cef`
 * `vectra:cognito:detect`
 * `vectra:cognito:health`
@@ -44,8 +44,14 @@
 
 ## Compatibility
 
-* This app is not compatible with the Vectra App For Splunk
-* For compatibility reasons, all data previously indexed with a sourcetype `Vectra-CEF` will be renamed into the sourcetype `vectra:cognito:detect`
+* The Vectra App For Splunk is currently not compatible with this Technology Add-on.
+* Data previously indexed with sourcetype `Vectra-CEF` can be added to the intrusion detection datamodel, by renaming the sourcetype to  `vectra:cognito:detect`.
+Following stanza needs to be added in e.g. `$SPLUNK_HOME/apps/TA-vectra-cognito/props.conf`:
+
+```ini
+[Vectra-CEF]
+rename = vectra:cognito:detect
+```
 
 ## Release Notes
 
