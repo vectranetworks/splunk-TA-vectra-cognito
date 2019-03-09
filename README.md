@@ -59,8 +59,16 @@ rename = vectra:cognito:detect
 
   * Initial Release
 
+* **1.0.1 / 2018-03-09** mbo
+
+  * Bugfix Release
+
 ## Change Log
 
 * **1.0.0 / 2018-11-29** mbo
 
   * Initial Release
+  
+* **1.0.1 / 2019-03-09** mbo
+
+  * Typo in field naming
