@@ -72,3 +72,4 @@ rename = vectra:cognito:detect
 * **1.0.1 / 2019-03-09** mbo
 
   * Typo in field naming
+  * Minor fix in vectra_url extraction for hostscoring
