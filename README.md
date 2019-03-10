@@ -69,7 +69,9 @@ rename = vectra:cognito:detect
 
   * Initial Release
   
-* **1.0.1 / 2019-03-09** mbo
+* **1.0.1 / 2019-03-10** mbo
 
   * Typo in field naming
   * Minor fix in vectra_url extraction for hostscoring
+  * Added additional extractions for audit, campaing and health
+  * Renamed outcome -> result in detect logs
